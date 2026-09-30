@@ -58,23 +58,6 @@ Adding header status reduced the Brier score by another 0.0036, with a 95% inter
 
 Overall, the results show that adding simple shot information can improve probability estimates while keeping the model easy to interpret.
 
-## Repository structure
-
-```text
-.
-├── README.md
-├── analysis.py
-├── requirements.txt
-├── data/
-│   ├── shot_level.csv
-│   └── source_match_manifest.csv
-└── results/
-    ├── model_metrics.csv
-    ├── test_predictions.csv
-    ├── calibration.png
-    └── results_summary.md
-```
-
 ## How to run
 
 Install the required Python packages:
